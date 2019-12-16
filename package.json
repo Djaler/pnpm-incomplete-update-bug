@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@stryker-mutator/core": "2.4.0",
-    "typescript": "3.7.3"
+    "typescript": "3.7.3",
+    "left-pad": "1.3.0"
   }
 }
