@@ -1,6 +1,6 @@
 devDependencies:
-  '@stryker-mutator/core': 2.4.0_ddc2473922ff9e8b9abc2626b7668840
-  typescript: 3.7.2
+  '@stryker-mutator/core': 2.4.0_c4485045879e658f75548d7ebc7e14f9
+  typescript: 3.7.3
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.5.5:
@@ -92,12 +92,12 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-VV12SWtoHKM8G2CSUHD7b8O6zJSygHjAju+e9qOjmrTaEgy8KUVO7OWuUNcRLpcRDVAlB2osuo3qndMstpPExg==
-  /@stryker-mutator/core/2.4.0_ddc2473922ff9e8b9abc2626b7668840:
+  /@stryker-mutator/core/2.4.0_c4485045879e658f75548d7ebc7e14f9:
     dependencies:
       '@stryker-mutator/api': 2.4.0
       '@stryker-mutator/html-reporter': 2.4.0_@stryker-mutator+core@2.4.0
       '@stryker-mutator/jest-runner': 2.4.0_@stryker-mutator+core@2.4.0
-      '@stryker-mutator/typescript': 2.4.0_ddc2473922ff9e8b9abc2626b7668840
+      '@stryker-mutator/typescript': 2.4.0_c4485045879e658f75548d7ebc7e14f9
       '@stryker-mutator/util': 2.4.0
       chalk: 3.0.0
       commander: 4.0.1
@@ -131,7 +131,7 @@ packages:
   /@stryker-mutator/html-reporter/2.4.0_@stryker-mutator+core@2.4.0:
     dependencies:
       '@stryker-mutator/api': 2.4.0
-      '@stryker-mutator/core': 2.4.0_ddc2473922ff9e8b9abc2626b7668840
+      '@stryker-mutator/core': 2.4.0_c4485045879e658f75548d7ebc7e14f9
       '@stryker-mutator/util': 2.4.0
       file-url: 3.0.0
       mkdirp: 0.5.1
@@ -147,7 +147,7 @@ packages:
   /@stryker-mutator/jest-runner/2.4.0_@stryker-mutator+core@2.4.0:
     dependencies:
       '@stryker-mutator/api': 2.4.0
-      '@stryker-mutator/core': 2.4.0_ddc2473922ff9e8b9abc2626b7668840
+      '@stryker-mutator/core': 2.4.0_c4485045879e658f75548d7ebc7e14f9
       semver: 6.3.0
     dev: true
     engines:
@@ -157,15 +157,15 @@ packages:
       jest: '>= 22.0.0'
     resolution:
       integrity: sha512-mJNgIrUfY7lfnl+LedrTvGV82tMFrLlm+hJLjtaG6sZMCn/+b63rMF+zAPzZlANRtemx5gUOzZPSvdGeA0XsHQ==
-  /@stryker-mutator/typescript/2.4.0_ddc2473922ff9e8b9abc2626b7668840:
+  /@stryker-mutator/typescript/2.4.0_c4485045879e658f75548d7ebc7e14f9:
     dependencies:
       '@stryker-mutator/api': 2.4.0
-      '@stryker-mutator/core': 2.4.0_ddc2473922ff9e8b9abc2626b7668840
+      '@stryker-mutator/core': 2.4.0_c4485045879e658f75548d7ebc7e14f9
       '@stryker-mutator/util': 2.4.0
       lodash.flatmap: 4.5.0
       semver: 6.3.0
       tslib: 1.10.0
-      typescript: 3.7.2
+      typescript: 3.7.3
     dev: true
     engines:
       node: '>=8'
@@ -786,6 +786,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+  /typescript/3.7.3:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
   /underscore/1.8.3:
     dev: true
     resolution:
@@ -802,4 +809,4 @@ packages:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
   '@stryker-mutator/core': 2.4.0
-  typescript: 3.7.2
+  typescript: 3.7.3
