@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@stryker-mutator/core": "2.4.0",
+    "typescript": "3.7.2"
+  }
+}
